@@ -78,9 +78,6 @@ class MovieDetail : AppCompatActivity() {
             adapterSpokenLanguage = ProductionCountryAdapter(response.production_countries)
             binding.rvProductionCountry.adapter = adapterSpokenLanguage
 
-//            binding.tvTitleMovieDetail.apply {
-//                text = response.title
-//            }
 
 
         })
